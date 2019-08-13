@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "2f9a3809a9b7556cd1f6af986a5fa4e9d0ab3faf"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ChaosStack2019Autumn/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0-preview7.19362.9",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "ChaosStack2019Autumn.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.6.0-preview7.19362.9": {},
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChaosStack2019Autumn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.6.0-preview7.19362.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Td4bst1H9AN3fIX2DQva04yppzbKLSH1yWnKAo5gh4EkGXKoVXHlDVdyRJ/ExcPD4lJE2jI52FEFeB56ps3Lkg==",
+      "path": "microsoft.csharp/4.6.0-preview7.19362.9",
+      "hashPath": "microsoft.csharp.4.6.0-preview7.19362.9.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    }
+  }
+}

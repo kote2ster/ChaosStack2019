@@ -1,0 +1,11 @@
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\bin\Debug\netcoreapp2.1\ChaosStack2019Autumn.deps.json
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\bin\Debug\netcoreapp2.1\ChaosStack2019Autumn.runtimeconfig.json
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\bin\Debug\netcoreapp2.1\ChaosStack2019Autumn.runtimeconfig.dev.json
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\bin\Debug\netcoreapp2.1\ChaosStack2019Autumn.dll
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\obj\Debug\netcoreapp2.1\ChaosStack2019Autumn.csprojAssemblyReference.cache
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\obj\Debug\netcoreapp2.1\ChaosStack2019Autumn.csproj.CoreCompileInputs.cache
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\obj\Debug\netcoreapp2.1\ChaosStack2019Autumn.AssemblyInfoInputs.cache
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\obj\Debug\netcoreapp2.1\ChaosStack2019Autumn.AssemblyInfo.cs
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\bin\Debug\netcoreapp2.1\ChaosStack2019Autumn.pdb
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\obj\Debug\netcoreapp2.1\ChaosStack2019Autumn.dll
+C:\Users\bence.hambalko\source\repos\ChaosStack2019Autumn\ChaosStack2019Autumn\obj\Debug\netcoreapp2.1\ChaosStack2019Autumn.pdb
