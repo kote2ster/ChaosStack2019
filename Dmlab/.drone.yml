@@ -1,0 +1,33 @@
+pipeline:
+  unit-test:
+    image: python:3
+    commands:
+      - pip install -r requirements.txt
+      - python -m pytest
+
+  gcr:
+    image: plugins/gcr
+    registry: eu.gcr.io
+    repo: codementor-tutorial/codementor-tutorial
+    tags: ["commit_${DRONE_COMMIT}","build_${DRONE_BUILD_NUMBER}", "latest"]
+    secrets: [GOOGLE_CREDENTIALS]
+    when:
+      branch: master
+
+  deploy:
+    image: google/cloud-sdk:latest
+    environment:
+      PROJECT_ID: codementor-tutorial
+      COMPUTE_ZONE: europe-west1-d
+      CLUSTER_NAME: hello-codementor
+    secrets: [GOOGLE_CREDENTIALS]
+    commands:
+      - yes | apt-get install python3
+      - python3 generate_key.py key.json
+      - gcloud config set project $PROJECT_ID
+      - gcloud config set compute/zone $COMPUTE_ZONE
+      - gcloud auth activate-service-account --key-file key.json
+      - gcloud container clusters get-credentials $CLUSTER_NAME
+      - kubectl set image deployment/codementor-tutorial codementor-tutorial=eu.gcr.io/$${PROJECT_ID}/codementor-tutorial:commit_${DRONE_COMMIT}
+    when:
+      branch: master
